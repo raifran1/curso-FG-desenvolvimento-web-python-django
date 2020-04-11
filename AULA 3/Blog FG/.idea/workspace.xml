@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9ec59c65-8ce7-4b11-81f6-ca83ff625b3b" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1a8BXarsCU4yzSzf16FhXsk9mX2" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web_blog/manage.py" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunManager">
+    <configuration name="makemigrations" type="PythonConfigurationType" factoryName="Python">
+      <module name="Blog FG" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/anaconda3/envs/web_blog1/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/web_blog" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/web_blog/manage.py" />
+      <option name="PARAMETERS" value="makemigrations" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9ec59c65-8ce7-4b11-81f6-ca83ff625b3b" name="Default Changelist" comment="" />
+      <created>1586107383865</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586107383865</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1819" y="206" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586109132495">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1819" y="206" key="#com.intellij.execution.impl.EditConfigurationsDialog/1366.0.1920.1080/0.27.1366.741@1366.0.1920.1080" timestamp="1586109132495" />
+    <state x="2094" y="256" width="524" height="601" key="FileChooserDialogImpl" timestamp="1586109077730">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2094" y="256" width="524" height="601" key="FileChooserDialogImpl/1366.0.1920.1080/0.27.1366.741@1366.0.1920.1080" timestamp="1586109077730" />
+    <state width="1820" height="261" key="GridCell.Tab.0.bottom" timestamp="1586109601098">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1820" height="261" key="GridCell.Tab.0.bottom/1366.0.1920.1080/0.27.1366.741@1366.0.1920.1080" timestamp="1586109601098" />
+    <state width="1820" height="261" key="GridCell.Tab.0.center" timestamp="1586109601098">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1820" height="261" key="GridCell.Tab.0.center/1366.0.1920.1080/0.27.1366.741@1366.0.1920.1080" timestamp="1586109601098" />
+    <state width="1820" height="261" key="GridCell.Tab.0.left" timestamp="1586109601098">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1820" height="261" key="GridCell.Tab.0.left/1366.0.1920.1080/0.27.1366.741@1366.0.1920.1080" timestamp="1586109601098" />
+    <state width="1820" height="261" key="GridCell.Tab.0.right" timestamp="1586109601098">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1820" height="261" key="GridCell.Tab.0.right/1366.0.1920.1080/0.27.1366.741@1366.0.1920.1080" timestamp="1586109601098" />
+    <state x="1854" y="88" width="1284" height="912" key="SettingsEditor" timestamp="1586107619550">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1854" y="88" width="1284" height="912" key="SettingsEditor/1366.0.1920.1080/0.27.1366.741@1366.0.1920.1080" timestamp="1586107619550" />
+  </component>
+</project>

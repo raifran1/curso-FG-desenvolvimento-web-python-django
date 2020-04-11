@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="img/favicon.ico">
+
+    <title>WeBlog Technology</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <link href="css/navbar-fixed-top.css" rel="stylesheet">
+
+    <script src="js/ie-emulation-modes-warning.js"></script>
+
+
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <img src="img/blog-icon.png" class='navbar-brand' style="height: 50px;">
+          <a class="navbar-brand">WeBlog Technology</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="index.html">Página Inicial</a></li>
+            <li><a href="contato.html">Sobre nós</a></li>
+          </ul>
+
+          <ul class="nav navbar-nav navbar-right">
+              <li><a href="postagens_autor.html">Suas Postagens</a></li>
+              <li><a href="postar.html">Postar</a></li>
+              <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Usuário<span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Admin</a></li>
+                    <li><a href="#">Editar Dados - Autor</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li class="dropdown-header">Perfil</li>
+                    <li><a href="#">Alterar Senha</a></li>
+                    <li><a href="#">Editar Dados - Login</a></li>
+                    <li><a href="#">Sair</a></li>
+                  </ul>
+                </li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+    <div class="container">
+        <div class="jumbotron">
+            <form action="" method="post">
+                <div class="form-group">
+                    <label for="autor">Autor</label>
+                    <input class='form-control' name='autor' id='autor' type='text'>
+                </div>
+                <div class="form-group">
+                    <label for="titulo">Titulo</label>
+                    <input class='form-control' name='titulo' id='titulo' type='text'>
+                </div>
+                <div class="form-group">
+                    <label for="conteudo">Conteudo</label>
+                    <input class='form-control' name='conteudo' id='conteudo' type='text'>
+                </div>
+                <div class="form-group">
+                    <label for="dt_criacao">Data de Criação</label>
+                    <input class='form-control' name='dt_criacao' id='dt_criacao' type='date'>
+                </div>
+                <div class="form-group">
+                    <label for="dt_publicacao">Data de Publicação</label>
+                    <input class='form-control' name='dt_publicacao' id='dt_publicacao' type='date' value='{{ data|date:"d/m/Y" }}' readonly>
+                </div>
+                <div class="form-group">
+                    <label for="status">Status</label>
+                    <select class="form-control" id="status">
+                      <option>Rascunho</option>
+                      <option>Publidado</option>
+                    </select>
+                </div>
+                <div class="form-group" align='center'>
+                    <a href="/" class="btn btn-primary">Voltar</a>
+                  <button type="submit" class="btn btn-success">Salvar</button>
+                </div>
+              </form>
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="{% static "js/vendor/jquery.min.js" %}"><\/script>')</script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>
