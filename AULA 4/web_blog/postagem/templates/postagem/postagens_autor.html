@@ -1,0 +1,94 @@
+{% extends 'base.html' %}
+
+{% block container %}
+<!--        Tamanho de tela até tablet-->
+    <div class="jumbotron visible-sm visible-md visible-lg">
+        <h3 align='center'>Legenda:</h3>
+        <h4 style="color: red;"><kbd style="background-color: red;">Vermelho</kbd>: Rascunho</h4>
+        <h4 style="color: blue;"><kbd style="background-color: blue;">Azul</kbd>: Publicado</h4>
+    </div>
+    <!--            RASCUNHO -->
+    <div class="jumbotron visible-sm visible-md visible-lg" style="padding-top: 15px; padding-block-end: 15px; color: red;background-color: #E0FFFF;">
+        <h2>Exemplo de postagem - 1</h2>
+        <br>
+        <br>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit explicabo atque minima mollitia provident repellat nisi modi totam quibusdam itaque, maxime ipsum temporibus culpa aperiam distinctio ad quaerat eligendi. Suscipit!</p>
+        <br>
+        <br>
+        <div align='right'>
+            <h6>
+                Por Usuário 1, em 11/04/2020 às 10:50
+            </h6>
+        </div>
+        <div align='center'>
+                <a class="btn btn-primary btn-xs" href="#">Editar</a>
+                <a class="btn btn-danger btn-xs" href="#">Excluir</a>
+        </div>
+      </div>
+    <!--      PUBLICADO  -->
+    <div class="jumbotron visible-sm visible-md visible-lg" style="padding-top: 15px; padding-block-end: 15px; color: blue;background-color: #E0FFFF;">
+        <h2>Exemplo de postagem - 1</h2>
+        <br>
+        <br>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit explicabo atque minima mollitia provident repellat nisi modi totam quibusdam itaque, maxime ipsum temporibus culpa aperiam distinctio ad quaerat eligendi. Suscipit!</p>
+        <br>
+        <br>
+        <div align='right'>
+            <h6>
+                Por Usuário 1, em 11/04/2020 às 10:50
+            </h6>
+        </div>
+        <div align='center'>
+                <a class="btn btn-primary btn-xs" href="#">Editar</a>
+                <a class="btn btn-danger btn-xs" href="#">Excluir</a>
+        </div>
+    </div>
+<!--        /Tamanho de tela até tablet-->
+
+
+
+
+<!--       Tamanho de tela para dispositivos móveis -->
+    <div class="jumbotron visible-xs">
+        <h4 align='center'>Legenda:</h4>
+        <h5 style="color: red;"><kbd style="background-color: red;">Vermelho</kbd>: Rascunho</h5>
+        <h5 style="color: blue;"><kbd style="background-color: blue;">Azul</kbd>: Publicado</h5>
+    </div>
+    <!--            RASCUNHO -->
+    <div class="jumbotron visible-xs" style="padding-top: 15px; padding-block-end: 15px; color: red;background-color: #E0FFFF;">
+        <h2>Exemplo de postagem - 1</h2>
+        <br>
+        <br>
+          <p style="font-size: 15px;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit explicabo atque minima mollitia provident repellat nisi modi totam quibusdam itaque, maxime ipsum temporibus culpa aperiam distinctio ad quaerat eligendi. Suscipit!</p>
+        <br>
+        <br>
+        <div align='right'>
+            <h6>
+                Por Usuário 1, em 11/04/2020 às 10:50
+            </h6>
+        </div>
+        <div align='center'>
+                <a class="btn btn-primary btn-xs" href="#">Editar</a>
+                <a class="btn btn-danger btn-xs" href="#">Excluir</a>
+        </div>
+      </div>
+    <!--      PUBLICADO  -->
+    <div class="jumbotron visible-xs" style="padding-top: 15px; padding-block-end: 15px; color: blue;background-color: #E0FFFF;">
+        <h2>Exemplo de postagem - 1</h2>
+        <br>
+        <br>
+          <p style="font-size: 15px;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit explicabo atque minima mollitia provident repellat nisi modi totam quibusdam itaque, maxime ipsum temporibus culpa aperiam distinctio ad quaerat eligendi. Suscipit!</p>
+        <br>
+        <br>
+        <div align='right'>
+            <h6>
+                Por Usuário 1, em 11/04/2020 às 10:50
+            </h6>
+        </div>
+        <div align='center'>
+                <a class="btn btn-primary btn-xs" href="#">Editar</a>
+                <a class="btn btn-danger btn-xs" href="#">Excluir</a>
+        </div>
+    </div>
+<!--       /Tamanho de tela para dispositivos móveis -->
+{% endblock %}
