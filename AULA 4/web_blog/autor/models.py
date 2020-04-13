@@ -17,5 +17,9 @@ class Autor(models.Model):
     ocupacao = models.CharField(max_length=50, choices=OCUPACAO_CHOICES)
     resumo_perfil = models.TextField()
 
+    class Meta:
+        verbose_name = 'Autor'
+        verbose_name_plural = 'Autores'
+
     def __str__(self):
         return self.nome_completo

@@ -11,5 +11,9 @@ class Postagem(models.Model):
     dt_publicacao = models.DateTimeField(auto_now=True)
     status = models.CharField(max_length=15, choices=STATUS_CHOICE)
 
+    class Meta:
+        verbose_name = 'Postagem'
+        verbose_name_plural = 'Postagens'
+
     def __str__(self):
         return self.titulo
