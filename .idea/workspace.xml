@@ -1,7 +1,81 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a60a0e78-5790-4d81-a5e6-3698855ed6b1" name="Default Changelist" comment="" />
+    <list default="true" id="a60a0e78-5790-4d81-a5e6-3698855ed6b1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.AULA Revisão/.idea/AULA Revisão.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.AULA Revisão/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.AULA Revisão/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.AULA Revisão/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.AULA Revisão/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.AULA Revisão/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.AULA Revisão/css/all.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.AULA Revisão/css/font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.AULA Revisão/css/resume.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.AULA Revisão/css/resume.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.AULA Revisão/img/profile.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.AULA Revisão/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.AULA Revisão/js/resume.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.AULA Revisão/js/resume.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.AULA Revisão/vendor/bootstrap/css/bootstrap-grid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.AULA Revisão/vendor/bootstrap/css/bootstrap-grid.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.AULA Revisão/vendor/bootstrap/css/bootstrap-grid.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.AULA Revisão/vendor/bootstrap/css/bootstrap-grid.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.AULA Revisão/vendor/bootstrap/css/bootstrap-reboot.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.AULA Revisão/vendor/bootstrap/css/bootstrap-reboot.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.AULA Revisão/vendor/bootstrap/css/bootstrap-reboot.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.AULA Revisão/vendor/bootstrap/css/bootstrap-reboot.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.AULA Revisão/vendor/bootstrap/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.AULA Revisão/vendor/bootstrap/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.AULA Revisão/vendor/bootstrap/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.AULA Revisão/vendor/bootstrap/css/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.AULA Revisão/vendor/bootstrap/js/bootstrap.bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.AULA Revisão/vendor/bootstrap/js/bootstrap.bundle.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.AULA Revisão/vendor/bootstrap/js/bootstrap.bundle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.AULA Revisão/vendor/bootstrap/js/bootstrap.bundle.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.AULA Revisão/vendor/bootstrap/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.AULA Revisão/vendor/bootstrap/js/bootstrap.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.AULA Revisão/vendor/bootstrap/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.AULA Revisão/vendor/bootstrap/js/bootstrap.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.AULA Revisão/vendor/fontawesome-free/css/all.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.AULA Revisão/vendor/fontawesome-free/css/all.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.AULA Revisão/vendor/fontawesome-free/css/brands.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.AULA Revisão/vendor/fontawesome-free/css/brands.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.AULA Revisão/vendor/fontawesome-free/css/fontawesome.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.AULA Revisão/vendor/fontawesome-free/css/fontawesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.AULA Revisão/vendor/fontawesome-free/css/regular.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.AULA Revisão/vendor/fontawesome-free/css/regular.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.AULA Revisão/vendor/fontawesome-free/css/solid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.AULA Revisão/vendor/fontawesome-free/css/solid.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.AULA Revisão/vendor/fontawesome-free/css/svg-with-js.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.AULA Revisão/vendor/fontawesome-free/css/svg-with-js.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.AULA Revisão/vendor/fontawesome-free/css/v4-shims.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.AULA Revisão/vendor/fontawesome-free/css/v4-shims.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.AULA Revisão/vendor/fontawesome-free/webfonts/fa-brands-400.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.AULA Revisão/vendor/fontawesome-free/webfonts/fa-brands-400.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.AULA Revisão/vendor/fontawesome-free/webfonts/fa-brands-400.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.AULA Revisão/vendor/fontawesome-free/webfonts/fa-brands-400.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.AULA Revisão/vendor/fontawesome-free/webfonts/fa-brands-400.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.AULA Revisão/vendor/fontawesome-free/webfonts/fa-regular-400.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.AULA Revisão/vendor/fontawesome-free/webfonts/fa-regular-400.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.AULA Revisão/vendor/fontawesome-free/webfonts/fa-regular-400.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.AULA Revisão/vendor/fontawesome-free/webfonts/fa-regular-400.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.AULA Revisão/vendor/fontawesome-free/webfonts/fa-regular-400.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.AULA Revisão/vendor/fontawesome-free/webfonts/fa-solid-900.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.AULA Revisão/vendor/fontawesome-free/webfonts/fa-solid-900.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.AULA Revisão/vendor/fontawesome-free/webfonts/fa-solid-900.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.AULA Revisão/vendor/fontawesome-free/webfonts/fa-solid-900.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.AULA Revisão/vendor/fontawesome-free/webfonts/fa-solid-900.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.AULA Revisão/vendor/jquery-easing/jquery.easing.compatibility.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.AULA Revisão/vendor/jquery-easing/jquery.easing.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.AULA Revisão/vendor/jquery-easing/jquery.easing.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.AULA Revisão/vendor/jquery/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.AULA Revisão/vendor/jquery/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.AULA Revisão/vendor/jquery/jquery.min.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.AULA Revisão/vendor/jquery/jquery.slim.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.AULA Revisão/vendor/jquery/jquery.slim.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.AULA Revisão/vendor/jquery/jquery.slim.min.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +88,6 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
