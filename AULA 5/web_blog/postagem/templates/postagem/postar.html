@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+
+{% block container %}
+    <div class="jumbotron">
+        <form action="" method="post">
+            <div class="form-group">
+                <label for="autor">Autor</label>
+                <input class='form-control' name='autor' id='autor' type='text'>
+            </div>
+            <div class="form-group">
+                <label for="titulo">Titulo</label>
+                <input class='form-control' name='titulo' id='titulo' type='text'>
+            </div>
+            <div class="form-group">
+                <label for="conteudo">Conteudo</label>
+                <input class='form-control' name='conteudo' id='conteudo' type='text'>
+            </div>
+            <div class="form-group">
+                <label for="dt_criacao">Data de Criação</label>
+                <input class='form-control' name='dt_criacao' id='dt_criacao' type='date'>
+            </div>
+            <div class="form-group">
+                <label for="dt_publicacao">Data de Publicação</label>
+                <input class='form-control' name='dt_publicacao' id='dt_publicacao' type='date' value='{{ data|date:"d/m/Y" }}' readonly>
+            </div>
+            <div class="form-group">
+                <label for="status">Status</label>
+                <select class="form-control" id="status">
+                  <option>Rascunho</option>
+                  <option>Publidado</option>
+                </select>
+            </div>
+            <div class="form-group" align='center'>
+                <a href="/" class="btn btn-primary">Voltar</a>
+              <button type="submit" class="btn btn-success">Salvar</button>
+            </div>
+          </form>
+    </div>
+{% endblock %}
