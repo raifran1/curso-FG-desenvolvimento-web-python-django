@@ -1,0 +1,37 @@
+{% extends 'base.html' %}
+{% load widget_tweaks %}
+
+{% block container %}
+    <div class="jumbotron">
+        <form action="" method="post">
+            {% csrf_token %}
+            <div class="form-group">
+                <input class='form-control' name='autor' id='autor' type='hidden' value="{{ autor.id }}">
+            </div>
+            <div class="form-group">
+                <label for="{{ form.titulo.id_for_label }}">Titulo</label>
+                {{ form.titulo|add_class:'form-control' }}
+            </div>
+            <div class="form-group">
+                <label for="{{ form.conteudo.id_for_label }}">Conteudo</label>
+                {{ form.conteudo|add_class:'form-control' }}
+            </div>
+            <div class="form-group">
+                <label for="dt_criacao">Data de Criação</label>
+                <input class='form-control' name='dt_criacao' id='dt_criacao' type='text' value="{{ data|date:'d/m/Y' }}" readonly>
+            </div>
+            <div class="form-group">
+                <label for="dt_publicacao">Data de Publicação</label>
+                <input class='form-control' name='dt_publicacao' id='dt_publicacao' type='text' value='{{ data|date:"d/m/Y" }}' readonly>
+            </div>
+            <div class="form-group">
+                <label for="{{ form.status.id_for_label }}">Status</label>
+                {{ form.status|add_class:'form-control' }}
+            </div>
+            <div class="form-group" align='center'>
+                <a href="/" class="btn btn-primary">Voltar</a>
+              <button type="submit" class="btn btn-success">Salvar</button>
+            </div>
+          </form>
+    </div>
+{% endblock %}
