@@ -1,7 +1,169 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="02f7dc20-d386-45c7-b9d2-f178f11de66c" name="Default Changelist" comment="" />
+    <list default="true" id="02f7dc20-d386-45c7-b9d2-f178f11de66c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/web_blog/accounts/templates/accounts/add_user.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_blog/accounts/templates/accounts/alterar_senha.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_blog/accounts/templates/accounts/editar_user.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_blog/accounts/templates/accounts/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_blog/autor/templates/autor/cadastrar_autor.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_blog/autor/templates/autor/editar_autor.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/AULA 8.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/AULA 8.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES LOGIN/accounts/add_user.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES LOGIN/accounts/alterar_senha.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES LOGIN/accounts/editar_user.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES LOGIN/accounts/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES LOGIN/autor/cadastrar_autor.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES LOGIN/autor/editar_autor.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES LOGIN/login/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_blog/static/login/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES LOGIN/login/css/util.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_blog/static/login/css/util.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES LOGIN/login/fonts/Linearicons-Free-v1.0.0/WebFont/Linearicons-Free.eot" beforeDir="false" afterPath="$PROJECT_DIR$/web_blog/static/login/fonts/Linearicons-Free-v1.0.0/WebFont/Linearicons-Free.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES LOGIN/login/fonts/Linearicons-Free-v1.0.0/WebFont/Linearicons-Free.svg" beforeDir="false" afterPath="$PROJECT_DIR$/web_blog/static/login/fonts/Linearicons-Free-v1.0.0/WebFont/Linearicons-Free.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES LOGIN/login/fonts/Linearicons-Free-v1.0.0/WebFont/Linearicons-Free.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/web_blog/static/login/fonts/Linearicons-Free-v1.0.0/WebFont/Linearicons-Free.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES LOGIN/login/fonts/Linearicons-Free-v1.0.0/WebFont/Linearicons-Free.woff" beforeDir="false" afterPath="$PROJECT_DIR$/web_blog/static/login/fonts/Linearicons-Free-v1.0.0/WebFont/Linearicons-Free.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES LOGIN/login/fonts/Linearicons-Free-v1.0.0/WebFont/Linearicons-Free.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/web_blog/static/login/fonts/Linearicons-Free-v1.0.0/WebFont/Linearicons-Free.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES LOGIN/login/fonts/Linearicons-Free-v1.0.0/icon-font.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_blog/static/login/fonts/Linearicons-Free-v1.0.0/icon-font.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES LOGIN/login/fonts/font-awesome-4.7.0/HELP-US-OUT.txt" beforeDir="false" afterPath="$PROJECT_DIR$/web_blog/static/login/fonts/font-awesome-4.7.0/HELP-US-OUT.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES LOGIN/login/fonts/font-awesome-4.7.0/css/font-awesome.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_blog/static/login/fonts/font-awesome-4.7.0/css/font-awesome.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES LOGIN/login/fonts/font-awesome-4.7.0/css/font-awesome.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_blog/static/login/fonts/font-awesome-4.7.0/css/font-awesome.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES LOGIN/login/fonts/font-awesome-4.7.0/fonts/FontAwesome.otf" beforeDir="false" afterPath="$PROJECT_DIR$/web_blog/static/login/fonts/font-awesome-4.7.0/fonts/FontAwesome.otf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES LOGIN/login/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.eot" beforeDir="false" afterPath="$PROJECT_DIR$/web_blog/static/login/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES LOGIN/login/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/web_blog/static/login/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES LOGIN/login/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/web_blog/static/login/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES LOGIN/login/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.woff" beforeDir="false" afterPath="$PROJECT_DIR$/web_blog/static/login/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES LOGIN/login/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/web_blog/static/login/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES LOGIN/login/fonts/font-awesome-4.7.0/less/animated.less" beforeDir="false" afterPath="$PROJECT_DIR$/web_blog/static/login/fonts/font-awesome-4.7.0/less/animated.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES LOGIN/login/fonts/font-awesome-4.7.0/less/bordered-pulled.less" beforeDir="false" afterPath="$PROJECT_DIR$/web_blog/static/login/fonts/font-awesome-4.7.0/less/bordered-pulled.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES LOGIN/login/fonts/font-awesome-4.7.0/less/core.less" beforeDir="false" afterPath="$PROJECT_DIR$/web_blog/static/login/fonts/font-awesome-4.7.0/less/core.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES LOGIN/login/fonts/font-awesome-4.7.0/less/fixed-width.less" beforeDir="false" afterPath="$PROJECT_DIR$/web_blog/static/login/fonts/font-awesome-4.7.0/less/fixed-width.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES LOGIN/login/fonts/font-awesome-4.7.0/less/font-awesome.less" beforeDir="false" afterPath="$PROJECT_DIR$/web_blog/static/login/fonts/font-awesome-4.7.0/less/font-awesome.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES LOGIN/login/fonts/font-awesome-4.7.0/less/icons.less" beforeDir="false" afterPath="$PROJECT_DIR$/web_blog/static/login/fonts/font-awesome-4.7.0/less/icons.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES LOGIN/login/fonts/font-awesome-4.7.0/less/larger.less" beforeDir="false" afterPath="$PROJECT_DIR$/web_blog/static/login/fonts/font-awesome-4.7.0/less/larger.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES LOGIN/login/fonts/font-awesome-4.7.0/less/list.less" beforeDir="false" afterPath="$PROJECT_DIR$/web_blog/static/login/fonts/font-awesome-4.7.0/less/list.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES LOGIN/login/fonts/font-awesome-4.7.0/less/mixins.less" beforeDir="false" afterPath="$PROJECT_DIR$/web_blog/static/login/fonts/font-awesome-4.7.0/less/mixins.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES LOGIN/login/fonts/font-awesome-4.7.0/less/path.less" beforeDir="false" afterPath="$PROJECT_DIR$/web_blog/static/login/fonts/font-awesome-4.7.0/less/path.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES LOGIN/login/fonts/font-awesome-4.7.0/less/rotated-flipped.less" beforeDir="false" afterPath="$PROJECT_DIR$/web_blog/static/login/fonts/font-awesome-4.7.0/less/rotated-flipped.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES LOGIN/login/fonts/font-awesome-4.7.0/less/screen-reader.less" beforeDir="false" afterPath="$PROJECT_DIR$/web_blog/static/login/fonts/font-awesome-4.7.0/less/screen-reader.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES LOGIN/login/fonts/font-awesome-4.7.0/less/stacked.less" beforeDir="false" afterPath="$PROJECT_DIR$/web_blog/static/login/fonts/font-awesome-4.7.0/less/stacked.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES LOGIN/login/fonts/font-awesome-4.7.0/less/variables.less" beforeDir="false" afterPath="$PROJECT_DIR$/web_blog/static/login/fonts/font-awesome-4.7.0/less/variables.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES LOGIN/login/fonts/font-awesome-4.7.0/scss/_animated.scss" beforeDir="false" afterPath="$PROJECT_DIR$/web_blog/static/login/fonts/font-awesome-4.7.0/scss/_animated.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES LOGIN/login/fonts/font-awesome-4.7.0/scss/_bordered-pulled.scss" beforeDir="false" afterPath="$PROJECT_DIR$/web_blog/static/login/fonts/font-awesome-4.7.0/scss/_bordered-pulled.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES LOGIN/login/fonts/font-awesome-4.7.0/scss/_core.scss" beforeDir="false" afterPath="$PROJECT_DIR$/web_blog/static/login/fonts/font-awesome-4.7.0/scss/_core.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES LOGIN/login/fonts/font-awesome-4.7.0/scss/_fixed-width.scss" beforeDir="false" afterPath="$PROJECT_DIR$/web_blog/static/login/fonts/font-awesome-4.7.0/scss/_fixed-width.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES LOGIN/login/fonts/font-awesome-4.7.0/scss/_icons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/web_blog/static/login/fonts/font-awesome-4.7.0/scss/_icons.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES LOGIN/login/fonts/font-awesome-4.7.0/scss/_larger.scss" beforeDir="false" afterPath="$PROJECT_DIR$/web_blog/static/login/fonts/font-awesome-4.7.0/scss/_larger.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES LOGIN/login/fonts/font-awesome-4.7.0/scss/_list.scss" beforeDir="false" afterPath="$PROJECT_DIR$/web_blog/static/login/fonts/font-awesome-4.7.0/scss/_list.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES LOGIN/login/fonts/font-awesome-4.7.0/scss/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/web_blog/static/login/fonts/font-awesome-4.7.0/scss/_mixins.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES LOGIN/login/fonts/font-awesome-4.7.0/scss/_path.scss" beforeDir="false" afterPath="$PROJECT_DIR$/web_blog/static/login/fonts/font-awesome-4.7.0/scss/_path.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES LOGIN/login/fonts/font-awesome-4.7.0/scss/_rotated-flipped.scss" beforeDir="false" afterPath="$PROJECT_DIR$/web_blog/static/login/fonts/font-awesome-4.7.0/scss/_rotated-flipped.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES LOGIN/login/fonts/font-awesome-4.7.0/scss/_screen-reader.scss" beforeDir="false" afterPath="$PROJECT_DIR$/web_blog/static/login/fonts/font-awesome-4.7.0/scss/_screen-reader.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES LOGIN/login/fonts/font-awesome-4.7.0/scss/_stacked.scss" beforeDir="false" afterPath="$PROJECT_DIR$/web_blog/static/login/fonts/font-awesome-4.7.0/scss/_stacked.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES LOGIN/login/fonts/font-awesome-4.7.0/scss/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/web_blog/static/login/fonts/font-awesome-4.7.0/scss/_variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES LOGIN/login/fonts/font-awesome-4.7.0/scss/font-awesome.scss" beforeDir="false" afterPath="$PROJECT_DIR$/web_blog/static/login/fonts/font-awesome-4.7.0/scss/font-awesome.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES LOGIN/login/fonts/montserrat/Montserrat-Black.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/web_blog/static/login/fonts/montserrat/Montserrat-Black.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES LOGIN/login/fonts/montserrat/Montserrat-BlackItalic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/web_blog/static/login/fonts/montserrat/Montserrat-BlackItalic.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES LOGIN/login/fonts/montserrat/Montserrat-Bold.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/web_blog/static/login/fonts/montserrat/Montserrat-Bold.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES LOGIN/login/fonts/montserrat/Montserrat-BoldItalic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/web_blog/static/login/fonts/montserrat/Montserrat-BoldItalic.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES LOGIN/login/fonts/montserrat/Montserrat-ExtraBold.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/web_blog/static/login/fonts/montserrat/Montserrat-ExtraBold.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES LOGIN/login/fonts/montserrat/Montserrat-ExtraBoldItalic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/web_blog/static/login/fonts/montserrat/Montserrat-ExtraBoldItalic.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES LOGIN/login/fonts/montserrat/Montserrat-ExtraLight.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/web_blog/static/login/fonts/montserrat/Montserrat-ExtraLight.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES LOGIN/login/fonts/montserrat/Montserrat-ExtraLightItalic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/web_blog/static/login/fonts/montserrat/Montserrat-ExtraLightItalic.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES LOGIN/login/fonts/montserrat/Montserrat-Italic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/web_blog/static/login/fonts/montserrat/Montserrat-Italic.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES LOGIN/login/fonts/montserrat/Montserrat-Light.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/web_blog/static/login/fonts/montserrat/Montserrat-Light.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES LOGIN/login/fonts/montserrat/Montserrat-LightItalic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/web_blog/static/login/fonts/montserrat/Montserrat-LightItalic.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES LOGIN/login/fonts/montserrat/Montserrat-Medium.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/web_blog/static/login/fonts/montserrat/Montserrat-Medium.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES LOGIN/login/fonts/montserrat/Montserrat-MediumItalic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/web_blog/static/login/fonts/montserrat/Montserrat-MediumItalic.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES LOGIN/login/fonts/montserrat/Montserrat-Regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/web_blog/static/login/fonts/montserrat/Montserrat-Regular.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES LOGIN/login/fonts/montserrat/Montserrat-SemiBold.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/web_blog/static/login/fonts/montserrat/Montserrat-SemiBold.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES LOGIN/login/fonts/montserrat/Montserrat-SemiBoldItalic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/web_blog/static/login/fonts/montserrat/Montserrat-SemiBoldItalic.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES LOGIN/login/fonts/montserrat/Montserrat-Thin.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/web_blog/static/login/fonts/montserrat/Montserrat-Thin.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES LOGIN/login/fonts/montserrat/Montserrat-ThinItalic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/web_blog/static/login/fonts/montserrat/Montserrat-ThinItalic.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES LOGIN/login/fonts/montserrat/OFL.txt" beforeDir="false" afterPath="$PROJECT_DIR$/web_blog/static/login/fonts/montserrat/OFL.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES LOGIN/login/fonts/poppins/Poppins-Black.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/web_blog/static/login/fonts/poppins/Poppins-Black.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES LOGIN/login/fonts/poppins/Poppins-BlackItalic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/web_blog/static/login/fonts/poppins/Poppins-BlackItalic.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES LOGIN/login/fonts/poppins/Poppins-Bold.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/web_blog/static/login/fonts/poppins/Poppins-Bold.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES LOGIN/login/fonts/poppins/Poppins-BoldItalic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/web_blog/static/login/fonts/poppins/Poppins-BoldItalic.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES LOGIN/login/fonts/poppins/Poppins-ExtraBold.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/web_blog/static/login/fonts/poppins/Poppins-ExtraBold.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES LOGIN/login/fonts/poppins/Poppins-ExtraBoldItalic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/web_blog/static/login/fonts/poppins/Poppins-ExtraBoldItalic.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES LOGIN/login/fonts/poppins/Poppins-ExtraLight.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/web_blog/static/login/fonts/poppins/Poppins-ExtraLight.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES LOGIN/login/fonts/poppins/Poppins-ExtraLightItalic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/web_blog/static/login/fonts/poppins/Poppins-ExtraLightItalic.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES LOGIN/login/fonts/poppins/Poppins-Italic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/web_blog/static/login/fonts/poppins/Poppins-Italic.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES LOGIN/login/fonts/poppins/Poppins-Light.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/web_blog/static/login/fonts/poppins/Poppins-Light.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES LOGIN/login/fonts/poppins/Poppins-LightItalic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/web_blog/static/login/fonts/poppins/Poppins-LightItalic.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES LOGIN/login/fonts/poppins/Poppins-Medium.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/web_blog/static/login/fonts/poppins/Poppins-Medium.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES LOGIN/login/fonts/poppins/Poppins-MediumItalic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/web_blog/static/login/fonts/poppins/Poppins-MediumItalic.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES LOGIN/login/fonts/poppins/Poppins-Regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/web_blog/static/login/fonts/poppins/Poppins-Regular.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES LOGIN/login/fonts/poppins/Poppins-SemiBold.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/web_blog/static/login/fonts/poppins/Poppins-SemiBold.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES LOGIN/login/fonts/poppins/Poppins-SemiBoldItalic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/web_blog/static/login/fonts/poppins/Poppins-SemiBoldItalic.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES LOGIN/login/fonts/poppins/Poppins-Thin.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/web_blog/static/login/fonts/poppins/Poppins-Thin.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES LOGIN/login/fonts/poppins/Poppins-ThinItalic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/web_blog/static/login/fonts/poppins/Poppins-ThinItalic.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES LOGIN/login/fonts/raleway/OFL.txt" beforeDir="false" afterPath="$PROJECT_DIR$/web_blog/static/login/fonts/raleway/OFL.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES LOGIN/login/fonts/raleway/Raleway-Black.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/web_blog/static/login/fonts/raleway/Raleway-Black.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES LOGIN/login/fonts/raleway/Raleway-BlackItalic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/web_blog/static/login/fonts/raleway/Raleway-BlackItalic.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES LOGIN/login/fonts/raleway/Raleway-Bold.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/web_blog/static/login/fonts/raleway/Raleway-Bold.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES LOGIN/login/fonts/raleway/Raleway-BoldItalic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/web_blog/static/login/fonts/raleway/Raleway-BoldItalic.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES LOGIN/login/fonts/raleway/Raleway-ExtraBold.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/web_blog/static/login/fonts/raleway/Raleway-ExtraBold.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES LOGIN/login/fonts/raleway/Raleway-ExtraBoldItalic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/web_blog/static/login/fonts/raleway/Raleway-ExtraBoldItalic.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES LOGIN/login/fonts/raleway/Raleway-ExtraLight.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/web_blog/static/login/fonts/raleway/Raleway-ExtraLight.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES LOGIN/login/fonts/raleway/Raleway-ExtraLightItalic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/web_blog/static/login/fonts/raleway/Raleway-ExtraLightItalic.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES LOGIN/login/fonts/raleway/Raleway-Italic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/web_blog/static/login/fonts/raleway/Raleway-Italic.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES LOGIN/login/fonts/raleway/Raleway-Light.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/web_blog/static/login/fonts/raleway/Raleway-Light.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES LOGIN/login/fonts/raleway/Raleway-LightItalic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/web_blog/static/login/fonts/raleway/Raleway-LightItalic.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES LOGIN/login/fonts/raleway/Raleway-Medium.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/web_blog/static/login/fonts/raleway/Raleway-Medium.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES LOGIN/login/fonts/raleway/Raleway-MediumItalic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/web_blog/static/login/fonts/raleway/Raleway-MediumItalic.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES LOGIN/login/fonts/raleway/Raleway-Regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/web_blog/static/login/fonts/raleway/Raleway-Regular.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES LOGIN/login/fonts/raleway/Raleway-SemiBold.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/web_blog/static/login/fonts/raleway/Raleway-SemiBold.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES LOGIN/login/fonts/raleway/Raleway-SemiBoldItalic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/web_blog/static/login/fonts/raleway/Raleway-SemiBoldItalic.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES LOGIN/login/fonts/raleway/Raleway-Thin.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/web_blog/static/login/fonts/raleway/Raleway-Thin.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES LOGIN/login/fonts/raleway/Raleway-ThinItalic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/web_blog/static/login/fonts/raleway/Raleway-ThinItalic.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES LOGIN/login/fonts/ubuntu/UFL.txt" beforeDir="false" afterPath="$PROJECT_DIR$/web_blog/static/login/fonts/ubuntu/UFL.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES LOGIN/login/fonts/ubuntu/Ubuntu-Bold.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/web_blog/static/login/fonts/ubuntu/Ubuntu-Bold.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES LOGIN/login/fonts/ubuntu/Ubuntu-BoldItalic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/web_blog/static/login/fonts/ubuntu/Ubuntu-BoldItalic.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES LOGIN/login/fonts/ubuntu/Ubuntu-Italic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/web_blog/static/login/fonts/ubuntu/Ubuntu-Italic.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES LOGIN/login/fonts/ubuntu/Ubuntu-Light.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/web_blog/static/login/fonts/ubuntu/Ubuntu-Light.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES LOGIN/login/fonts/ubuntu/Ubuntu-LightItalic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/web_blog/static/login/fonts/ubuntu/Ubuntu-LightItalic.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES LOGIN/login/fonts/ubuntu/Ubuntu-Medium.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/web_blog/static/login/fonts/ubuntu/Ubuntu-Medium.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES LOGIN/login/fonts/ubuntu/Ubuntu-MediumItalic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/web_blog/static/login/fonts/ubuntu/Ubuntu-MediumItalic.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES LOGIN/login/fonts/ubuntu/Ubuntu-Regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/web_blog/static/login/fonts/ubuntu/Ubuntu-Regular.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES LOGIN/login/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_blog/static/login/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES LOGIN/login/vendor/animate/animate.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_blog/static/login/vendor/animate/animate.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES LOGIN/login/vendor/animsition/css/animsition.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_blog/static/login/vendor/animsition/css/animsition.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES LOGIN/login/vendor/animsition/css/animsition.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_blog/static/login/vendor/animsition/css/animsition.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES LOGIN/login/vendor/animsition/js/animsition.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_blog/static/login/vendor/animsition/js/animsition.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES LOGIN/login/vendor/animsition/js/animsition.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_blog/static/login/vendor/animsition/js/animsition.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES LOGIN/login/vendor/bootstrap/css/bootstrap-grid.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_blog/static/login/vendor/bootstrap/css/bootstrap-grid.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES LOGIN/login/vendor/bootstrap/css/bootstrap-grid.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/web_blog/static/login/vendor/bootstrap/css/bootstrap-grid.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES LOGIN/login/vendor/bootstrap/css/bootstrap-grid.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_blog/static/login/vendor/bootstrap/css/bootstrap-grid.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES LOGIN/login/vendor/bootstrap/css/bootstrap-grid.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/web_blog/static/login/vendor/bootstrap/css/bootstrap-grid.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES LOGIN/login/vendor/bootstrap/css/bootstrap-reboot.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_blog/static/login/vendor/bootstrap/css/bootstrap-reboot.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES LOGIN/login/vendor/bootstrap/css/bootstrap-reboot.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/web_blog/static/login/vendor/bootstrap/css/bootstrap-reboot.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES LOGIN/login/vendor/bootstrap/css/bootstrap-reboot.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_blog/static/login/vendor/bootstrap/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES LOGIN/login/vendor/bootstrap/css/bootstrap-reboot.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/web_blog/static/login/vendor/bootstrap/css/bootstrap-reboot.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES LOGIN/login/vendor/bootstrap/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_blog/static/login/vendor/bootstrap/css/bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES LOGIN/login/vendor/bootstrap/css/bootstrap.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/web_blog/static/login/vendor/bootstrap/css/bootstrap.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES LOGIN/login/vendor/bootstrap/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_blog/static/login/vendor/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES LOGIN/login/vendor/bootstrap/css/bootstrap.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/web_blog/static/login/vendor/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES LOGIN/login/vendor/bootstrap/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_blog/static/login/vendor/bootstrap/js/bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES LOGIN/login/vendor/bootstrap/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_blog/static/login/vendor/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES LOGIN/login/vendor/bootstrap/js/popper.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_blog/static/login/vendor/bootstrap/js/popper.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES LOGIN/login/vendor/bootstrap/js/popper.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_blog/static/login/vendor/bootstrap/js/popper.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES LOGIN/login/vendor/bootstrap/js/tooltip.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_blog/static/login/vendor/bootstrap/js/tooltip.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES LOGIN/login/vendor/countdowntime/countdowntime.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_blog/static/login/vendor/countdowntime/countdowntime.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES LOGIN/login/vendor/css-hamburgers/hamburgers.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_blog/static/login/vendor/css-hamburgers/hamburgers.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES LOGIN/login/vendor/css-hamburgers/hamburgers.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_blog/static/login/vendor/css-hamburgers/hamburgers.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES LOGIN/login/vendor/daterangepicker/daterangepicker.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_blog/static/login/vendor/daterangepicker/daterangepicker.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES LOGIN/login/vendor/daterangepicker/daterangepicker.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_blog/static/login/vendor/daterangepicker/daterangepicker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES LOGIN/login/vendor/daterangepicker/moment.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_blog/static/login/vendor/daterangepicker/moment.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES LOGIN/login/vendor/daterangepicker/moment.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_blog/static/login/vendor/daterangepicker/moment.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES LOGIN/login/vendor/jquery/jquery-3.2.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_blog/static/login/vendor/jquery/jquery-3.2.1.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES LOGIN/login/vendor/perfect-scrollbar/perfect-scrollbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_blog/static/login/vendor/perfect-scrollbar/perfect-scrollbar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES LOGIN/login/vendor/perfect-scrollbar/perfect-scrollbar.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_blog/static/login/vendor/perfect-scrollbar/perfect-scrollbar.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES LOGIN/login/vendor/select2/select2.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_blog/static/login/vendor/select2/select2.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES LOGIN/login/vendor/select2/select2.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_blog/static/login/vendor/select2/select2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES LOGIN/login/vendor/select2/select2.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/web_blog/static/login/vendor/select2/select2.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPLATES LOGIN/login/vendor/select2/select2.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/web_blog/static/login/vendor/select2/select2.min.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,6 +181,38 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web_blog/manage.py" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/web_blog/autor/templates/autor" />
+      <recent name="$PROJECT_DIR$/web_blog/accounts/templates/accounts" />
+      <recent name="$PROJECT_DIR$/web_blog/static" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="runserver" type="PythonConfigurationType" factoryName="Python">
+      <module name="AULA 8" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/anaconda3/envs/web_blog1/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/web_blog" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/web_blog/manage.py" />
+      <option name="PARAMETERS" value="runserver" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -34,6 +228,34 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="274" y="70" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587840153639">
+      <screen x="70" y="27" width="1296" height="741" />
+    </state>
+    <state x="274" y="70" key="#com.intellij.execution.impl.EditConfigurationsDialog/1366.0.1920.1080/70.27.1296.741@70.27.1296.741" timestamp="1587840153639" />
+    <state x="660" y="159" width="530" height="605" key="FileChooserDialogImpl" timestamp="1587840149820">
+      <screen x="70" y="27" width="1296" height="741" />
+    </state>
+    <state x="660" y="159" width="530" height="605" key="FileChooserDialogImpl/1366.0.1920.1080/70.27.1296.741@70.27.1296.741" timestamp="1587840149820" />
+    <state width="1821" height="235" key="GridCell.Tab.0.bottom" timestamp="1587844505253">
+      <screen x="70" y="27" width="1296" height="741" />
+    </state>
+    <state width="1821" height="235" key="GridCell.Tab.0.bottom/1366.0.1920.1080/70.27.1296.741@70.27.1296.741" timestamp="1587844505253" />
+    <state width="1821" height="235" key="GridCell.Tab.0.center" timestamp="1587844505253">
+      <screen x="70" y="27" width="1296" height="741" />
+    </state>
+    <state width="1821" height="235" key="GridCell.Tab.0.center/1366.0.1920.1080/70.27.1296.741@70.27.1296.741" timestamp="1587844505253" />
+    <state width="1821" height="235" key="GridCell.Tab.0.left" timestamp="1587844505252">
+      <screen x="70" y="27" width="1296" height="741" />
+    </state>
+    <state width="1821" height="235" key="GridCell.Tab.0.left/1366.0.1920.1080/70.27.1296.741@70.27.1296.741" timestamp="1587844505252" />
+    <state width="1821" height="235" key="GridCell.Tab.0.right" timestamp="1587844505253">
+      <screen x="70" y="27" width="1296" height="741" />
+    </state>
+    <state width="1821" height="235" key="GridCell.Tab.0.right/1366.0.1920.1080/70.27.1296.741@70.27.1296.741" timestamp="1587844505253" />
+    <state x="70" y="27" width="1125" height="741" key="SettingsEditor" timestamp="1587840348934">
+      <screen x="70" y="27" width="1296" height="741" />
+    </state>
+    <state x="70" y="27" width="1125" height="741" key="SettingsEditor/1366.0.1920.1080/70.27.1296.741@70.27.1296.741" timestamp="1587840348934" />
     <state x="2005" y="241" width="641" height="598" key="find.popup" timestamp="1587828222158">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
